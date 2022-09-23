@@ -1,5 +1,5 @@
 import './App.css';
-import Counter from './components/Counter';
+import Greets from './components/Greet';
 // import { Greets } from './components/Greet';
 // import Message from './components/Message';
 // import Welcome from './components/welcome';
@@ -8,12 +8,10 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-      <Counter/>
-      {/* <Message/> */}
-      {/* <Greets name="kuku" heroName="muku">
+      <Greets name="kuku" heroName="muku">
           <p>this is children</p>
       </Greets>
-      <Greets name="kuka" heroName="muka">
+      {/* <Greets name="kuka" heroName="muka">
           <button>Action</button>
       </Greets>
       <Greets name="kuke" heroName="muke">
@@ -27,7 +25,7 @@ function App() {
       </Welcome>
       <Welcome name="kuke" heroName="muke">
         
-      </Welcome> */}
+      </Welcome>  */}
     </div>
   );
 }
