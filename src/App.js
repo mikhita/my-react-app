@@ -1,4 +1,5 @@
 import './App.css';
+import ClassClick from './components/ClassClick';
 import FunctionClick from './components/FunctionClick';
 // import Greets from './components/Greet';
 // import { Greets } from './components/Greet';
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <FunctionClick/>
+      <ClassClick/>
       {/* <Greets name="kuku" heroName="muku">
           <p>this is children</p>
       </Greets> */}
