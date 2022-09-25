@@ -1,13 +1,15 @@
 import './App.css';
+import FunctionClick from './components/FunctionClick';
 // import Greets from './components/Greet';
 // import { Greets } from './components/Greet';
 // import Message from './components/Message';
-import Welcome from './components/welcome';
+// import Welcome from './components/welcome';
 
 
 function App() {
   return (
     <div className="App">
+      <FunctionClick/>
       {/* <Greets name="kuku" heroName="muku">
           <p>this is children</p>
       </Greets> */}
@@ -17,7 +19,7 @@ function App() {
       <Greets name="kuke" heroName="muke">
 
       </Greets> */}
-      <Welcome name="kuku" heroName="muku">
+      {/* <Welcome name="kuku" heroName="muku">
           
       </Welcome>
       <Welcome name="kuka" heroName="muka">
@@ -25,7 +27,7 @@ function App() {
       </Welcome>
       <Welcome name="kuke" heroName="muke">
         
-      </Welcome> 
+      </Welcome>  */}
     </div>
   );
 }
