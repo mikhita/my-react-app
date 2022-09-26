@@ -1,5 +1,6 @@
 import './App.css';
-import EventBind from './EventBind';
+// import EventBind from './EventBind';
+import ParentComponent from './ParentComponent';
 // import ClassClick from './components/ClassClick';
 // import FunctionClick from './components/FunctionClick';
 // import EventBind from './EventBind';
@@ -12,7 +13,8 @@ import EventBind from './EventBind';
 function App() {
   return (
     <div className="App">
-      <EventBind/>
+      <ParentComponent/>
+      {/* <EventBind/> */}
       {/* <FunctionClick/>
       <ClassClick/> */}
       {/* <Greets name="kuku" heroName="muku">
