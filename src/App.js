@@ -1,7 +1,8 @@
 import './App.css';
-import "./appStyles.css"
-import "./appStyles.modules.css"
-import Inline from './Inline';
+import Form from './components/Form';
+// import "./appStyles.css"
+// import "./appStyles.modules.css"
+// import Inline from './Inline';
 // import StylesSheet from './StylesSheet';
 // import PersonList from './NameList';
 // import EventBind from './EventBind';
@@ -18,9 +19,10 @@ import Inline from './Inline';
 function App() {
   return (
     <div className="App">
-      <h1 className='error'>error</h1>
+      <Form/>
+      {/* <h1 className='error'>error</h1>
       <h1 className="success">sucess</h1>
-      <Inline/>
+      <Inline/> */}
       {/* <StylesSheet primary={true}/> */}
       {/* <PersonList/> */}
       {/* <ParentComponent/> */}
