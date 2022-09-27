@@ -1,5 +1,9 @@
 import './App.css';
-import PersonList from './NameList';
+import "./appStyles.css"
+import "./appStyles.modules.css"
+import Inline from './Inline';
+// import StylesSheet from './StylesSheet';
+// import PersonList from './NameList';
 // import EventBind from './EventBind';
 // import ParentComponent from './ParentComponent';
 // import ClassClick from './components/ClassClick';
@@ -14,7 +18,11 @@ import PersonList from './NameList';
 function App() {
   return (
     <div className="App">
-      <PersonList/>
+      <h1 className='error'>error</h1>
+      <h1 className="success">sucess</h1>
+      <Inline/>
+      {/* <StylesSheet primary={true}/> */}
+      {/* <PersonList/> */}
       {/* <ParentComponent/> */}
       {/* <EventBind/> */}
       {/* <FunctionClick/>
