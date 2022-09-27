@@ -1,5 +1,8 @@
 import './App.css';
-import Form from './components/Form';
+import Table from './components/Table';
+// import FragmentDemo from './components/FragmentDemo';
+// import LifesycleA from './components/LifesycleA';
+// import Form from './components/Form';
 // import "./appStyles.css"
 // import "./appStyles.modules.css"
 // import Inline from './Inline';
@@ -19,7 +22,10 @@ import Form from './components/Form';
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <Table/>
+      {/* <FragmentDemo/> */}
+      {/* <LifesycleA/> */}
+      {/* <Form/> */}
       {/* <h1 className='error'>error</h1>
       <h1 className="success">sucess</h1>
       <Inline/> */}
