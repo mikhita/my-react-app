@@ -37,8 +37,7 @@ function Columns() {
 
         ))
     }
-        <td>name</td>
-        <td>Nika</td>
+      
     </React.Fragment>
   )
 }

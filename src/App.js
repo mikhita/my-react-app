@@ -1,5 +1,6 @@
 import './App.css';
-import Table from './components/Table';
+import PortalDemo from './components/PortalDemo';
+// import Table from './components/Table';
 // import FragmentDemo from './components/FragmentDemo';
 // import LifesycleA from './components/LifesycleA';
 // import Form from './components/Form';
@@ -22,7 +23,8 @@ import Table from './components/Table';
 function App() {
   return (
     <div className="App">
-      <Table/>
+      <PortalDemo/>
+      {/* <Table/> */}
       {/* <FragmentDemo/> */}
       {/* <LifesycleA/> */}
       {/* <Form/> */}
