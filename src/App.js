@@ -1,5 +1,6 @@
 import './App.css';
-import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+// import PortalDemo from './components/PortalDemo';
 // import Table from './components/Table';
 // import FragmentDemo from './components/FragmentDemo';
 // import LifesycleA from './components/LifesycleA';
@@ -23,7 +24,9 @@ import PortalDemo from './components/PortalDemo';
 function App() {
   return (
     <div className="App">
-      <PortalDemo/>
+      <Hero heroName="Batman"/>
+      <Hero heroName="Joke"/>
+      {/* <PortalDemo/> */}
       {/* <Table/> */}
       {/* <FragmentDemo/> */}
       {/* <LifesycleA/> */}
