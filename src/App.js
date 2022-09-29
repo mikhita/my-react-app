@@ -1,5 +1,7 @@
 import './App.css';
-import Hero from './components/Hero';
+// import Hero from './components/Hero';
+// import {ErrorBoundary} from "react-error-boundary"
+// import ErrorFallback from './components/ErrorFallback';
 // import PortalDemo from './components/PortalDemo';
 // import Table from './components/Table';
 // import FragmentDemo from './components/FragmentDemo';
@@ -18,14 +20,19 @@ import Hero from './components/Hero';
 // import Greets from './components/Greet';
 // import { Greets } from './components/Greet';
 // import Message from './components/Message';
-// import Welcome from './components/welcome';
+import Welcome from './components/welcome';
+import wrapper from './components/Wrapper';
 
 
 function App() {
+  const HiOrderComp = wrapper(Welcome);
   return (
-    <div className="App">
-      <Hero heroName="Batman"/>
-      <Hero heroName="Joke"/>
+    <div className="App" >
+      <HiOrderComp />
+    {/* <ErrorBoundary fallback={<h1>something gone wrong</h1>}>
+          <Hero heroName="Batman"/>
+          <Hero heroName="Joker"/>
+    </ErrorBoundary> */}
       {/* <PortalDemo/> */}
       {/* <Table/> */}
       {/* <FragmentDemo/> */}

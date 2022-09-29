@@ -1,12 +1,18 @@
 import React from 'react'
+import {ErrorBoundary} from "react-error-boundary"
+
 
 function Hero({heroName}) {
     if(heroName==="Joker"){
-        throw new Error("Not a Hero!")
+        throw Error("not correct!")
     }
   return (
-    <div>{heroName}</div>
+    <ErrorBoundary fallback={<h1>something gone wrong</h1>}>
+        <div>
+            <div>{heroName}</div>
+        </div>
+    </ErrorBoundary>
   )
 }
 
-export default Hero
+export default  Hero;
