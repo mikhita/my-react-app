@@ -1,4 +1,5 @@
 import './App.css';
+// import Routers from './components/Router';
 // import Hero from './components/Hero';
 // import {ErrorBoundary} from "react-error-boundary"
 // import ErrorFallback from './components/ErrorFallback';
@@ -20,15 +21,14 @@ import './App.css';
 // import Greets from './components/Greet';
 // import { Greets } from './components/Greet';
 // import Message from './components/Message';
-import Welcome from './components/welcome';
-import wrapper from './components/Wrapper';
+// import Welcome from './components/welcome';
+// import wrapper from './components/Wrapper';
 
 
 function App() {
-  const HiOrderComp = wrapper(Welcome);
   return (
     <div className="App" >
-      <HiOrderComp />
+      {/* <Routers /> */}
     {/* <ErrorBoundary fallback={<h1>something gone wrong</h1>}>
           <Hero heroName="Batman"/>
           <Hero heroName="Joker"/>

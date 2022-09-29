@@ -1,6 +1,6 @@
 const wrapper = (Component)=>(...props)=>(
     <div>
-        <div style={{border:"2px solid red"}}>Higher order function</div>
+        <div >Higher order function</div>
         <Component {...props} />
     </div>
 
