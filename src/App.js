@@ -1,4 +1,5 @@
 import './App.css';
+import Counter from './components/Counter';
 // import Routers from './components/Router';
 // import Hero from './components/Hero';
 // import {ErrorBoundary} from "react-error-boundary"
@@ -28,6 +29,7 @@ import './App.css';
 function App() {
   return (
     <div className="App" >
+      <Counter/>
       {/* <Routers /> */}
     {/* <ErrorBoundary fallback={<h1>something gone wrong</h1>}>
           <Hero heroName="Batman"/>
