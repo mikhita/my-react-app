@@ -1,5 +1,6 @@
 import './App.css';
-import CounterThree from './components/CounterThree';
+import CounterFour from './components/CounterFour';
+// import CounterThree from './components/CounterThree';
 // import CounterTwo from './components/CounterTwo';
 // import Routers from './components/Router';
 // import Hero from './components/Hero';
@@ -30,7 +31,8 @@ import CounterThree from './components/CounterThree';
 function App() {
   return (
     <div className="App" >
-      <CounterThree/>
+      <CounterFour/>
+      {/* <CounterThree/> */}
     {/* <CounterTwo/> */}
       {/* <Routers /> */}
     {/* <ErrorBoundary fallback={<h1>something gone wrong</h1>}>
