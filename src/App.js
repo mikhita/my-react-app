@@ -1,5 +1,6 @@
 import './App.css';
-import CounterTwo from './components/CounterTwo';
+import CounterThree from './components/CounterThree';
+// import CounterTwo from './components/CounterTwo';
 // import Routers from './components/Router';
 // import Hero from './components/Hero';
 // import {ErrorBoundary} from "react-error-boundary"
@@ -29,7 +30,8 @@ import CounterTwo from './components/CounterTwo';
 function App() {
   return (
     <div className="App" >
-    <CounterTwo/>
+      <CounterThree/>
+    {/* <CounterTwo/> */}
       {/* <Routers /> */}
     {/* <ErrorBoundary fallback={<h1>something gone wrong</h1>}>
           <Hero heroName="Batman"/>
