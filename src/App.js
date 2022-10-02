@@ -1,5 +1,6 @@
 import './App.css';
-import MouseEvent from './components/MouseEvent';
+import IntervalCounter from './components/IntervalCounter';
+// import MouseEvent from './components/MouseEvent';
 // import HookMouse from './components/HookMouse';
 // import CounterFour from './components/CounterFour';
 // import CounterThree from './components/CounterThree';
@@ -33,7 +34,8 @@ import MouseEvent from './components/MouseEvent';
 function App() {
   return (
     <div className="App" >
-      <MouseEvent/>
+      <IntervalCounter/>
+      {/* <MouseEvent/> */}
       {/* <HookMouse/> */}
       {/* <CounterTwo/> */}
       {/* <CounterFour/> */}
