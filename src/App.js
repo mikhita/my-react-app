@@ -1,5 +1,7 @@
 import './App.css';
-import DataFetching from './components/DataFetching';
+import ConA from './components/ConA';
+import React from 'react';
+// import DataFetching from './components/DataFetching';
 // import IntervalCounter from './components/IntervalCounter';
 // import MouseEvent from './components/MouseEvent';
 // import HookMouse from './components/HookMouse';
@@ -30,12 +32,18 @@ import DataFetching from './components/DataFetching';
 // import Message from './components/Message';
 // import Welcome from './components/welcome';
 // import wrapper from './components/Wrapper';
-
+export const UserContext = React.createContext()
+export const ChannelContext = React.createContext()
 
 function App() {
   return (
     <div className="App" >
-      <DataFetching/>
+      <UserContext.Provider value={"Misha"}>
+        <ChannelContext.Provider value={"CodeEvolution"}>
+        <ConA/>
+        </ChannelContext.Provider>
+      </UserContext.Provider>
+      {/* <DataFetching/> */}
       {/* <MouseEvent/> */}
       {/* <HookMouse/> */}
       {/* <CounterTwo/> */}
