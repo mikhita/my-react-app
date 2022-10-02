@@ -12,6 +12,10 @@ function HookMouse() {
     useEffect(()=>{
         console.log("useEffect called");
         window.addEventListener("mousemove", logoutCordinates) 
+        return ()=>{
+            console.log("removed listener")
+            window.removeEventListener("mousemove", logoutCordinates)
+        }
 }, [])
     
   return (
