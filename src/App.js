@@ -1,7 +1,8 @@
 import './App.css';
+import HookMouse from './components/HookMouse';
 // import CounterFour from './components/CounterFour';
 // import CounterThree from './components/CounterThree';
-import CounterTwo from './components/CounterTwo';
+// import CounterTwo from './components/CounterTwo';
 // import Routers from './components/Router';
 // import Hero from './components/Hero';
 // import {ErrorBoundary} from "react-error-boundary"
@@ -31,7 +32,8 @@ import CounterTwo from './components/CounterTwo';
 function App() {
   return (
     <div className="App" >
-      <CounterTwo/>
+      <HookMouse/>
+      {/* <CounterTwo/> */}
       {/* <CounterFour/> */}
     {/* <CounterTwo/> */}
       {/* <Routers /> */}
