@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import CounterOne from './components/CounterOne';
+import CounterTwoReducer from './components/CounterTwoReducer';
 
 // import ConA from './components/ConA';
 // import React from 'react';
@@ -41,7 +41,7 @@ import CounterOne from './components/CounterOne';
 function App() {
   return (
     <div className="App" >
-      <CounterOne/>
+      <CounterTwoReducer/>
       {/* <UserContext.Provider value={"Misha"}>
         <ChannelContext.Provider value={"CodeEvolution"}>
         <ConA/>
