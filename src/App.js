@@ -1,6 +1,9 @@
 import './App.css';
-import ConA from './components/ConA';
 import React from 'react';
+import CounterOne from './components/CounterOne';
+
+// import ConA from './components/ConA';
+// import React from 'react';
 // import DataFetching from './components/DataFetching';
 // import IntervalCounter from './components/IntervalCounter';
 // import MouseEvent from './components/MouseEvent';
@@ -32,17 +35,18 @@ import React from 'react';
 // import Message from './components/Message';
 // import Welcome from './components/welcome';
 // import wrapper from './components/Wrapper';
-export const UserContext = React.createContext()
-export const ChannelContext = React.createContext()
+// export const UserContext = React.createContext()
+// export const ChannelContext = React.createContext()
 
 function App() {
   return (
     <div className="App" >
-      <UserContext.Provider value={"Misha"}>
+      <CounterOne/>
+      {/* <UserContext.Provider value={"Misha"}>
         <ChannelContext.Provider value={"CodeEvolution"}>
         <ConA/>
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
       {/* <DataFetching/> */}
       {/* <MouseEvent/> */}
       {/* <HookMouse/> */}
