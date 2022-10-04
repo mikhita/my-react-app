@@ -1,7 +1,8 @@
 import './App.css';
 import React from 'react';
-import CounterTwoReducer from './components/CounterTwoReducer';
-
+import FormInputs from './components/FormInputs';
+// import CounterThreeR from './components/CounterThreeR';
+// import CounterTwoReducer from './components/CounterTwoReducer';
 // import ConA from './components/ConA';
 // import React from 'react';
 // import DataFetching from './components/DataFetching';
@@ -40,8 +41,13 @@ import CounterTwoReducer from './components/CounterTwoReducer';
 
 function App() {
   return (
-    <div className="App" >
-      <CounterTwoReducer/>
+    <div className="App">
+      <FormInputs/>
+      <FormInputs/>
+      <FormInputs/>
+      <FormInputs/>
+      {/* <CounterThreeR/> */}
+      {/* <CounterTwoReducer/> */}
       {/* <UserContext.Provider value={"Misha"}>
         <ChannelContext.Provider value={"CodeEvolution"}>
         <ConA/>

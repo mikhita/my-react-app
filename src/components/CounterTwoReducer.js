@@ -15,7 +15,7 @@ const reducer = (state , action) => {
         case "Decrement2":
             return {...state , secondCounter:state.secondCounter- action.value}
         case "Reset":
-            return InitialState
+            return {...state , firstCount:InitialState.firstCount}
         default:
             return state
     }
